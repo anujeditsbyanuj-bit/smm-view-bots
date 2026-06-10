@@ -168,7 +168,7 @@ db = Database()
     def create_payment(self, user_id: str, views: int, amount_inr: float = 0,
                        amount_usd: float = 0, method: str = "", ref: str = "") -> str:
         """Create a pending payment. Returns payment _id as string."""
-        result = self.orders.database["payments"].insert_one({
+        result = self.payments.insert_one({
             "user_id":    str(user_id),
             "views":      views,
             "amount_inr": amount_inr,
