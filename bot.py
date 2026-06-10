@@ -141,12 +141,22 @@ def cmd_start(message):
         return
 
     welcome_text = (
-        f"👁 Hey I'm <b>Views Bot</b> — I can help you get views in your channel posts automatically.\n\n"
-        f"<b>My Features:</b>\n\n"
-        f"<i>✅ Works on Public &amp; Private channels both.\n"
-        f"✅ Can set auto views on new posts.\n"
-        f"✅ Slow, Medium or Fast Speed.</i>"
-    )
+    "👑 <b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴠɪᴇᴡꜱ ʙᴏᴛ ᴠɪᴘ</b> 👑\n"
+    "━━━━━━━━━━━━━━━━━━\n\n"
+    "👁 <b>ᴘʀᴇᴍɪᴜᴍ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴠɪᴇᴡꜱ ꜱᴇʀᴠɪᴄᴇ</b>\n\n"
+    "🚀 <b>ꜰᴇᴀᴛᴜʀᴇꜱ:</b>\n"
+    "┣ ✦ ꜱᴜᴘᴘᴏʀᴛꜱ <b>ᴘᴜʙʟɪᴄ & ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟꜱ</b>\n"
+    "┣ ✦ ᴀᴜᴛᴏ ᴠɪᴇᴡꜱ ᴏɴ ᴇᴠᴇʀʏ ɴᴇᴡ ᴘᴏꜱᴛ\n"
+    "┣ ✦ ᴀᴅᴊᴜꜱᴛᴀʙʟᴇ ꜱᴘᴇᴇᴅ ᴍᴏᴅᴇꜱ\n"
+    "┃   • 🐢 ꜱʟᴏᴡ\n"
+    "┃   • ⚡ ᴍᴇᴅɪᴜᴍ\n"
+    "┃   • 🔥 ꜰᴀꜱᴛ\n"
+    "┣ ✦ ꜱᴛᴀʙʟᴇ & ꜱᴇᴄᴜʀᴇ ꜱʏꜱᴛᴇᴍ\n"
+    "┗ ✦ 24/7 ᴀᴄᴛɪᴠᴇ ꜱᴇʀᴠɪᴄᴇ\n\n"
+    "💎 <b>ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴘʀᴇᴍɪᴜᴍ Qᴜᴀʟɪᴛʏ ᴠɪᴇᴡꜱ</b>\n"
+    "━━━━━━━━━━━━━━━━━━\n"
+    "⚜️ <b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ @AnujEdits76</b> ⚜️"
+)
     if WELCOME_IMAGE:
         try:
             bot.send_photo(user_id, WELCOME_IMAGE, caption=welcome_text, parse_mode="HTML", reply_markup=main_menu())
