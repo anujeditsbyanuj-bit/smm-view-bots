@@ -15,6 +15,7 @@ class Database:
         self.users     = db["users"]
         self.projects  = db["auto_projects"]
         self.orders    = db["orders"]
+        self.payments  = db["payments"]
 
         # Indexes
         self.users.create_index("user_id", unique=True)
