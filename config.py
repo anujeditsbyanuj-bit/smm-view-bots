@@ -34,7 +34,7 @@ STARS_PER_1000      = int(os.getenv("STARS_PER_1000",     "77"))    # Telegram S
 
 # UPI
 UPI_ID              = os.getenv("UPI_ID", "971916880@ybl")
-UPI_QR_IMAGE_URL    = os.getenv("UPI_QR_IMAGE_URL", "")
+UPI_QR_IMAGE_URL    = os.getenv("UPI_QR_IMAGE_URL", "https://l.arzfun.com/oxGhB")
 
 # PayPal
 PAYPAL_LINK         = os.getenv("PAYPAL_LINK", "https://t.me/anujedits76")
@@ -46,4 +46,4 @@ CRYPTO_CONTACT      = os.getenv("CRYPTO_CONTACT", "anujedits76")
 STARS_ENABLED       = os.getenv("STARS_ENABLED", "true").lower() == "true"
 
 # Welcome image file_id or URL
-WELCOME_IMAGE       = os.getenv("WELCOME_IMAGE", "")
+WELCOME_IMAGE       = os.getenv("WELCOME_IMAGE", "https://l.arzfun.com/Kf8Z5")
