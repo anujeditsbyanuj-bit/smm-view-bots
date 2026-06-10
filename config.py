@@ -1,16 +1,16 @@
 import os
 
 # ── Bot ──────────────────────────────────────
-BOT_TOKEN        = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN        = os.getenv("BOT_TOKEN", "8741784728:AAFLpwz7UZvEUumoxgO2I7ii8Lo-9ZSpa1o")
 ADMIN_IDS        = list(map(int, os.getenv("ADMIN_IDS", "7168219724").split(",")))
 SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "anujedits76")
 
 # ── MongoDB ──────────────────────────────────
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://user:pass@cluster.mongodb.net/viewsbot")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 
 # ── SMM Panel ────────────────────────────────
 SMM_API_URL    = os.getenv("SMM_API_URL", "https://easysmmpanel.com/api/v2")
-SMM_API_KEY    = os.getenv("SMM_API_KEY", "YOUR_SMM_API_KEY")
+SMM_API_KEY    = os.getenv("SMM_API_KEY", "1d1a6512595c470c37d0d7911be8af3b")
 SMM_SERVICE_ID = os.getenv("SMM_SERVICE_ID", "4815")   # Telegram post views service ID
 
 # ── Channels ─────────────────────────────────
@@ -33,11 +33,11 @@ VIEWS_PER_RUPEE     = float(os.getenv("VIEWS_PER_RUPEE",  "50"))    # 1000 views
 STARS_PER_1000      = int(os.getenv("STARS_PER_1000",     "77"))    # Telegram Stars per 1000 views
 
 # UPI
-UPI_ID              = os.getenv("UPI_ID", "BHARATPE.8O0M1X3J0D53738@fbpe")
+UPI_ID              = os.getenv("UPI_ID", "971916880@ybl")
 UPI_QR_IMAGE_URL    = os.getenv("UPI_QR_IMAGE_URL", "")
 
 # PayPal
-PAYPAL_LINK         = os.getenv("PAYPAL_LINK", "https://www.paypal.me/ydv888")
+PAYPAL_LINK         = os.getenv("PAYPAL_LINK", "https://t.me/anujedits76")
 
 # Crypto
 CRYPTO_CONTACT      = os.getenv("CRYPTO_CONTACT", "anujedits76")
