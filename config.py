@@ -11,7 +11,7 @@ MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs
 # ── SMM Panel ────────────────────────────────
 SMM_API_URL    = os.getenv("SMM_API_URL", "https://easysmmpanel.com/api/v2")
 SMM_API_KEY    = os.getenv("SMM_API_KEY", "ca6c4e5fcfdfa330be080b2600ff65b2")
-SMM_SERVICE_ID = os.getenv("SMM_SERVICE_ID", "4815")   # Telegram post views service ID
+SMM_SERVICE_ID = os.getenv("SMM_SERVICE_ID", "5000")   # Telegram post views service ID
 
 # ── Channels ─────────────────────────────────
 REQUIRED_CHANNELS = os.getenv("REQUIRED_CHANNELS", "@log_ak_bots").split(",")
